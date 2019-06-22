@@ -3,6 +3,8 @@ LawTeX - Best LaTeX Editor
 
 The best tool to write TeX/LaTeX document & the best friend of academics
 
+[Get it on Microsoft Store](https://www.microsoft.com/en-us/p/lawtex/9nblggh16jqz)
+
 Our Unique Features - Fast Automatic Recompile
 ----------------------------------------------
 
