@@ -3,6 +3,29 @@ LawTeX - Best LaTeX Editor
 
 The best tool to write TeX/LaTeX document & the best friend of academics
 
+Our Unique Features - Fast Automatic Recompile
+----------------------------------------------
+
+LawTeX was developed out of the _awful experience_ of writing LaTeX using existing editors such as TeX Maker, WinEdt, TeXworks even decades after Knuth's invention: 
+ 1. _the time taken from making some changes to actually see the changes in the PDF is just too long_.
+ 2. Not only that, one _has to_ press a key combination such as `F9` on WinEdt or `Ctrl+T` on TeXworks to start the compilation.
+Having to do so repeatedly hinders a mathematician's productivity significantly when he/she was doing mathematics; for example, typical tasks such as manipulating equations, computing integrals, etc. requires making many changes that are best with immediate visual feedback so that the calculations are ensured to be correct.
+
+Thus, we decided to build a new LaTeX editor with two main goals:
+ 1. __Automatic recompilation of TeX file__ as you pause typing, bringing TeX closer to a WYSIWYG experience
+ 2. __Reduce compilation time to allow fast visual feedback__
+
+The key task is #2.
+Existing editors could not accomplish that due to the fact that compilation takes prohibitively long for repeated recompilation.
+This is to be expected for after all, TeX was originally designed to generate documents for publishing, not for development of the document itself i.e. once you have all the material ready (hand-calculated formulas), writing should be a breeze.
+
+With our accomplishment in LawTeX, recompilation can start as soon as 1 second (or even lower, but we do not support that for now) after you stop typing.
+Thank to the two unique features, the original author already produced many scientific documents with __fairly few calculation mistakes__, much fewer than should he had done the calculation by hand.
+
+With everything said, __LawTeX does not aim to replace other TeX distributions__!
+It works best for academic papers but not fancy TeX features: to write the document, not publishing them (that is, the opposite of TeX!).
+For publication, traditional pdfTeX should be preferred in order to generate high qualify printable output.
+
 Features
 --------
 
@@ -13,8 +36,6 @@ LawTeX provides an integrated environment to compose, compile LaTeX documents to
  * Exceptional performance: Unlike MiKTeX, the memory footprint of this app is minute. The app is roughly 2MB in download size, roughly 10MB when installed compared to 300-450MB basic MiKTeX installation, discounting the packages. In addition, the document and temporary files are kept entirely in RAM so it not only makes compilation faster but also avoids wasting precious write cycles of your SSD and SD card. Unlike typical TeX editor which compile documents by executing TeX engines in external processes, LawTeX processes the source document within the app so there is no delay due to reloading the TeX engines, resources, etc. between compilations. The memory (RAM) usage is smaller than typical editor such as TeX Maker.
  * <del>TeX on the go: available across your Windows 10 PC, tablet and Windows 10 mobile phones. The user interface is designed to make it easy to work on all these devices. For example: keyboard shortcuts on PC/tablet with physical keyboard; on-screen context menu to perform typical editing actions like Cut/Copy/Paste and text selection.</del>
  * Also support BibTeX This app registers .tex file extension so you can pick it as default app to open your LaTeX documents.
-
-LawTeX does not aim to replace other TeX distributions. It works best for academic papers but not fancy TeX features: to write the document, not publishing them. For publication, one still needs traditional pdfTeX to generate high qualify printable output.
 
 USAGE NOTES
  * Keyboard shortcut: - Ctrl+X, Ctrl+C, Ctrl+V for cut/copy/paste - Ctrl+A to select the whole text - Ctrl+Z and Ctrl+Y for undo/redo - Ctrl+T to compile document - Ctrl+S to save document - Ctrl+F to open Find/replace panel, Ctrl+G to open Go to line panel
